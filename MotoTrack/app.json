@@ -8,7 +8,11 @@
 
     "orientation": "portrait",
 
+    "scheme": "mototrack",
+
     "userInterfaceStyle": "dark",
+
+    "newArchEnabled": false,
 
     "android": {
       "package": "com.seuapp.mototrack",
@@ -61,6 +65,14 @@
       "eas": {
         "projectId": "8854744d-9e0d-4949-929c-5dbd25d1409d"
       }
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
