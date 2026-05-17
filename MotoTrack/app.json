@@ -5,13 +5,10 @@
     "name": "MotoTrack",
     "slug": "moto-track",
     "version": "1.0.0",
+
     "orientation": "portrait",
 
     "userInterfaceStyle": "dark",
-
-    "assetBundlePatterns": [
-      "**/*"
-    ],
 
     "android": {
       "package": "com.seuapp.mototrack",
@@ -32,7 +29,9 @@
 
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "O MotoTrack precisa da localização para rastrear suas rotas.",
+
         "NSLocationAlwaysUsageDescription": "O MotoTrack precisa da localização em segundo plano para rastrear enquanto você pedala.",
+
         "UIBackgroundModes": [
           "location",
           "fetch"
@@ -45,6 +44,7 @@
         "expo-location",
         {
           "locationAlwaysAndWhenInUsePermission": "O MotoTrack precisa da sua localização para rastrear rotas.",
+
           "isAndroidBackgroundLocationEnabled": true
         }
       ],
