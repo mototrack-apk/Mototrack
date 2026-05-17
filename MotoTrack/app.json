@@ -1,10 +1,12 @@
 {
-  "expo": {"extra": {
-  "eas": {
-    "projectId": "SEU-PROJECT-ID-AQUI"
-  }
-},
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "SEU-PROJECT-ID-AQUI"
+      }
+    },
     "name": "MotoTrack",
+    ...
     "slug": "mototrack",
     "version": "1.0.0",
     "orientation": "portrait",
