@@ -6,23 +6,26 @@
       }
     },
     "name": "MotoTrack",
-    ...
     "slug": "mototrack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
+
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#141a24"
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#141a24"
       },
+
       "package": "com.seuapp.mototrack",
+
       "permissions": [
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION",
@@ -33,14 +36,17 @@
         "POST_NOTIFICATIONS"
       ]
     },
+
     "ios": {
       "bundleIdentifier": "com.seuapp.mototrack",
+
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "O MotoTrack precisa da localização para rastrear suas rotas.",
         "NSLocationAlwaysUsageDescription": "O MotoTrack precisa da localização em segundo plano para rastrear enquanto você pedala.",
         "UIBackgroundModes": ["location", "fetch"]
       }
     },
+
     "plugins": [
       [
         "expo-location",
@@ -49,6 +55,7 @@
           "isAndroidBackgroundLocationEnabled": true
         }
       ],
+
       [
         "expo-notifications",
         {
