@@ -12,8 +12,6 @@
 
     "userInterfaceStyle": "dark",
 
-    "newArchEnabled": false,
-
     "android": {
       "package": "com.seuapp.mototrack",
 
