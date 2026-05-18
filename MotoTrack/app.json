@@ -69,10 +69,6 @@
 
     "updates": {
       "fallbackToCacheTimeout": 0
-    },
-
-    "runtimeVersion": {
-      "policy": "appVersion"
     }
   }
 }
