@@ -1,7 +1,6 @@
 {
   "expo": {
     "owner": "mototrack",
-
     "name": "MotoTrack",
     "slug": "moto-track",
     "version": "1.0.0",
@@ -63,10 +62,6 @@
       "eas": {
         "projectId": "8854744d-9e0d-4949-929c-5dbd25d1409d"
       }
-    },
-
-    "updates": {
-      "fallbackToCacheTimeout": 0
     }
   }
 }
