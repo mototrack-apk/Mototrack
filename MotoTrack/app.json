@@ -8,10 +8,6 @@
     "userInterfaceStyle": "dark",
     "backgroundColor": "#141a24",
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#141a24"
-      },
       "package": "com.seuapp.mototrack"
     },
     "plugins": [
@@ -25,7 +21,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "SEU-PROJECT-ID-AQUI"
+        "projectId": "8854744d-9e0d-4949-929c-5dbd25d1409d"
       }
     },
     "cli": {
