@@ -1,36 +1,35 @@
 {
   "expo": {
-    "owner": "mototrack",
     "name": "MotoTrack",
-    "slug": "moto-track",
+    "slug": "mototrack",
     "version": "1.0.0",
-
     "orientation": "portrait",
-
-    "scheme": "mototrack",
-
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-
-    "plugins": [],
-
+    "backgroundColor": "#141a24",
     "android": {
-      "package": "com.seuapp.mototrack",
-
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION",
-        "ACCESS_BACKGROUND_LOCATION",
-        "FOREGROUND_SERVICE",
-        "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE",
-        "POST_NOTIFICATIONS"
-      ]
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#141a24"
+      },
+      "package": "com.seuapp.mototrack"
     },
-
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "O MotoTrack precisa da sua localização para rastrear rotas.",
+          "isAndroidBackgroundLocationEnabled": true
+        }
+      ]
+    ],
     "extra": {
       "eas": {
-        "projectId": "8854744d-9e0d-4949-929c-5dbd25d1409d"
+        "projectId": "SEU-PROJECT-ID-AQUI"
       }
+    },
+    "cli": {
+      "appVersionSource": "remote"
     }
   }
 }
