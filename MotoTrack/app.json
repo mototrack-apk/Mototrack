@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "MotoTrack",
-    "slug": "mototrack",
+    "slug": "moto-track",
+    "owner": "mototrack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
