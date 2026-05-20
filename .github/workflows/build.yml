@@ -20,8 +20,15 @@ jobs:
       - name: Install dependencies
         run: npm install
         working-directory: MotoTrack
+      - name: Run prebuild
+        run: npx expo prebuild --platform android --no-install
+        working-directory: MotoTrack
+      - name: Inject splash color fix
+        run: |
+          mkdir -p MotoTrack/android/app/src/main/res/values
+          cp MotoTrack/android-resources/colors.xml MotoTrack/android/app/src/main/res/values/colors.xml
       - name: Build Android
-        run: eas build --platform android --profile production --non-interactive --clear-cache
+        run: eas build --platform android --profile production --non-interactive
         working-directory: MotoTrack
         env:
           EAS_BUILD_NO_EXPO_GO_WARNING: "true"
