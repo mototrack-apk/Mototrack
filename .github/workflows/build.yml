@@ -21,7 +21,7 @@ jobs:
         run: npm install
         working-directory: MotoTrack
       - name: Build Android
-        run: eas build --platform android --profile production --non-interactive
+        run: eas build --platform android --profile production --non-interactive --clear-cache
         working-directory: MotoTrack
         env:
           EAS_BUILD_NO_EXPO_GO_WARNING: "true"
